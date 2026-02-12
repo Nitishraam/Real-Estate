@@ -1058,6 +1058,8 @@ body {
         flex-direction: column;
         gap: 1rem;
     }
+    .about-experience {
+    padding: 240px 0;}
 }
 
 /* PROPERTIES SECTION - COMPLETE WITH REAL IMAGES */
@@ -1538,6 +1540,9 @@ body {
         flex-direction: column;
         gap: 2rem;
         padding: 2rem 1.5rem;
+    }
+    .client-section{
+        flex-direction: column;
     }
 }
 
@@ -2139,7 +2144,10 @@ body {
     .team-title { font-size: 2.8rem; }
     .advisor-profile { flex-direction: column; text-align: center; gap: 1.5rem; }
     .team-slider { height: 500px; }
-    .slide-content { padding: 3rem 2rem; }
+    .slide-content { padding: 1rem 1rem; }
+    .team-slide {
+    position: absolute;
+    top: -60px;}
 }
 
 
@@ -2758,5 +2766,8 @@ body {
     
     .social-links {
         gap: 0.8rem;
+    }
+    .footer-yb-title::after {
+        left: 110px;
     }
 }
